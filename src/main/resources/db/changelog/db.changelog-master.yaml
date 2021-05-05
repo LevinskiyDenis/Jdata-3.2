@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: migrations/001-schema.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrations/002-schema.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrations/003-data_insert.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrations/004-data_insert.sql
+      relativeToChangelogFile: true
